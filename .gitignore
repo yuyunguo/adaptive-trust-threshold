@@ -1,0 +1,234 @@
+# Trust-Orchestrated Intelligence Project .gitignore
+# =================================================
+
+# Python
+# --------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+# --------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE & Editors
+# --------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+# ------------------
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+
+# Database & Credentials
+# ----------------------
+*.db
+*.sqlite3
+*.sql
+.env.local
+.env.production
+credentials.json
+config.ini
+secrets.yaml
+
+# MIMIC-III & Clinical Data
+# -------------------------
+data/mimic-iii/
+data/raw/
+data/processed/patient_data/
+*.csv
+*.parquet
+*.pkl
+*.pickle
+clinical_data/
+patient_records/
+
+# Validation Results & Logs
+# --------------------------
+validation_results/
+logs/
+*.log
+experiments/
+results/
+outputs/
+temp/
+tmp/
+
+# Enhanced Trust Framework Results
+# --------------------------------
+*validation_results*.json
+*enhanced_validation*.json
+*1000_patients*.json
+*real_agent_validation*.json
+statistical_analysis_*.json
+calibration_results_*.json
+weight_sensitivity_*.json
+trust_framework_results_*.json
+
+# Machine Learning Models
+# -----------------------
+models/
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.ckpt
+checkpoints/
+saved_models/
+
+# Research & Documentation
+# ------------------------
+drafts/
+notes/
+personal_notes/
+scratch/
+todo.txt
+*.docx
+*.pdf
+manuscript/drafts/
+manuscript/temp/
+
+# System & Cache Files
+# --------------------
+.cache/
+.pytest_cache/
+.coverage
+.nyc_output
+*.cover
+*.py,cover
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.black_cache/
+
+# Testing and Quality Tools
+# --------------------------
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.coverage.*
+
+# OS generated files
+# ------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project Specific
+# ----------------
+# Sensitive configuration files
+database_config.yaml
+production_env.yaml
+mimic_config.sh
+
+# Large validation datasets
+large_datasets/
+validation_datasets/
+
+# Temporary experiment files
+experiment_*/
+temp_validation/
+scratch_*
+
+# Enhanced Trust Framework Specific
+# ----------------------------------
+run_*_simplified.py
+# run_*_enhanced_*.py
+test_convergence_*.py
+monitor_validation.py
+
+# Performance and debugging files
+performance_logs/
+debug_outputs/
+profiling_results/
+*.prof
+memory_usage_*.txt
+
+# Temporary analysis files
+analysis_temp/
+plot_outputs/
+figure_drafts/
+calibration_plots/
+distribution_plots/
+
+# Backup files
+backup/
+*.bak
+*.backup
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# But keep these important files
+# ------------------------------
+!.env.example
+!requirements*.txt
+!README.md
+!docs/
+!src/
+!tests/
+!manuscript/nature_medicine_v1.md
+!manuscript/version_notes.md
+!writing_up_ideas.md
+!quick_start.py
+!setup_database.py
+!run_scaled_validation.py
+
+# Keep important validation and analysis scripts
+!calculate_baseline_comparisons.py
+!analyze_1000_patient_results.py
+
+# Keep configuration examples
+!config/*.example
+
+# Keep empty directories with placeholder files
+!*/.gitkeep

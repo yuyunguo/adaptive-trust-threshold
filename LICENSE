@@ -1,0 +1,61 @@
+Academic Research License
+
+Copyright (c) 2025 Yunguo Yu, Mayo Clinic
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. ACADEMIC USE PERMISSIONS
+This software and associated documentation files (the "Software") are made
+available for academic research and educational purposes. Academic researchers
+and educational institutions are granted permission to use, copy, modify, and
+distribute this Software for non-commercial research purposes, subject to the
+following conditions:
+
+2. ATTRIBUTION REQUIREMENTS
+- Any use of this Software in academic research must provide appropriate
+  citation to the original work
+- Publications using this Software must cite the associated research paper
+- Modified versions must clearly indicate changes made to the original Software
+
+3. CLINICAL RESEARCH PERMISSIONS
+Healthcare institutions and clinical researchers are granted permission to use
+this Software for clinical research purposes, including:
+- Clinical validation studies
+- Healthcare AI research
+- Patient safety research
+- Medical AI development for research purposes
+
+4. COMMERCIAL USE RESTRICTIONS
+Commercial use of this Software requires explicit written permission from the
+copyright holders. Commercial use includes, but is not limited to:
+- Use in commercial products or services
+- Use by commercial entities for profit-generating activities
+- Integration into commercial healthcare systems
+- Sale or licensing of the Software or derivative works
+
+For commercial licensing inquiries, contact the corresponding author of the associated publication.
+
+5. NO WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+6. DATA PROTECTION
+Users must comply with all applicable data protection laws and regulations,
+including but not limited to:
+- HIPAA (Health Insurance Portability and Accountability Act)
+- GDPR (General Data Protection Regulation)
+- Local healthcare data protection requirements
+
+7. DATA USE AGREEMENTS
+Use of MIMIC-III, MIMIC-IV, or eICU data through this Software requires:
+- Completion of required CITI training
+- A signed PhysioNet Credentialed Health Data License Agreement
+- Compliance with the respective dataset's data use requirements
+
+By using this Software, you acknowledge that you have read this license and
+agree to be bound by its terms and conditions.
