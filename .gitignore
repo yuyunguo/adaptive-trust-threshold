@@ -232,3 +232,6 @@ backup/
 
 # Keep empty directories with placeholder files
 !*/.gitkeep
+# Environment files (credentials)
+.env
+*.env.example
