@@ -76,15 +76,18 @@ All analyses use a fixed random seed for reproducibility. The leak-free calibrat
 If you use this code, please cite the article:
 
 ```bibtex
-@article{yu2026governing,
-  title   = {Governing Clinical AI Deployment: A Mathematical Framework for Transparency-Dependent Autonomy},
-  author  = {Yu, Yunguo and Collaco, Bernardo Gabriele and Prabha, Srinivasagam and Haider, Syed Ali and Malena, Carina Rosa and Parte, Yogesh and Wood, Nadia G. and Leibovich, Bradley C. and Forte, Antonio Jorge},
-  journal = {Healthcare},
-  volume  = {14},
-  number  = {21},
-  pages   = {3736},
-  year    = {2026},
-  doi     = {10.3390/healthcare14213736}
+@Article{healthcare14213736,
+AUTHOR = {Yu, Yunguo and Collaco, Bernardo Gabriele and Prabha, Srinivasagam and Haider, Syed Ali and Malena, Carina Rosa and Parte, Yogesh and Wood, Nadia G. and Leibovich, Bradley C. and Forte, Antonio Jorge},
+TITLE = {Governing Clinical AI Deployment: A Mathematical Framework for Transparency-Dependent Autonomy},
+JOURNAL = {Healthcare},
+VOLUME = {14},
+YEAR = {2026},
+NUMBER = {21},
+ARTICLE-NUMBER = {3736},
+URL = {https://www.mdpi.com/2227-9032/14/21/3736},
+ISSN = {2227-9032},
+ABSTRACT = {Background: Healthcare institutions lack explicit, quantitative rules for deciding when a clinical artificial intelligence (AI) system may act without human review. Objective: To formalize and retrospectively evaluate a transparency-dependent deployment rule. Methods: A trust score, T = 0.60C + 0.24E + 0.16S, combines calibrated confidence in the predicted class (C), explanation quality (E), and guideline alignment (S) and is compared with an adaptive threshold, τ(E) = θ0 + κ(1 − E); equivalently, a prediction is deployed when 0.60C + 0.44E + 0.16S ≥ 0.70. We evaluated the rule in 5000 MIMIC-IV intensive care unit patients, 5000 eICU patients from about 200 hospitals, and a MIMIC-III cohort, against confidence-only and random deferral at matched coverage, and tested a confidence threshold with a finite-sample guarantee on the error rate among deployed predictions. Results: In MIMIC-IV, areas under the curve were 0.77–0.81 (prolonged stay) and 0.83–0.88 (mortality). Within each model, the rule’s decisions matched deferral of the least-confident cases by C alone (99.4–100% agreement); E and S acted as model-level offsets, and re-optimized weights selected confidence alone. Computational E was not correlated with physician-rated utility (r = −0.15). The guaranteed threshold certified an error rate of at most 10% for 86–97% of mortality predictions but, for the primary prolonged-stay model, deployed on average only 15% of predictions at a 20% error budget, whereas the default rule deployed 77% with no error guarantee. Conclusions: Transparency is better suited to setting system-level error budgets than per-case thresholds; per case, autonomous deployment should rest on calibrated confidence with a certified error guarantee.},
+DOI = {10.3390/healthcare14213736}
 }
 ```
 
