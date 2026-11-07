@@ -2,7 +2,7 @@
 
 Reference implementation for the quantitative trust framework described in:
 
-> *Governing Clinical AI Deployment: A Mathematical Framework for Transparency-Dependent Autonomy* (Yu Y, Collaco BG, Prabha S, Haider SA, Malena CR, Parte Y, Wood NG, Leibovich BC, Forte AJ).
+> Yu, Y.; Collaco, B.G.; Prabha, S.; Haider, S.A.; Malena, C.R.; Parte, Y.; Wood, N.G.; Leibovich, B.C.; Forte, A.J. Governing Clinical AI Deployment: A Mathematical Framework for Transparency-Dependent Autonomy. *Healthcare* **2026**, *14*, 3736. https://doi.org/10.3390/healthcare14213736
 
 ## Overview
 
@@ -70,6 +70,25 @@ pip install -r requirements.txt
 4. Primary threshold figures and deployment table: `primary_threshold_figures.py`.
 
 All analyses use a fixed random seed for reproducibility. The leak-free calibration procedure fits isotonic calibration on out-of-fold training predictions (never the test set).
+
+## Citation
+
+If you use this code, please cite the article:
+
+```bibtex
+@article{yu2026governing,
+  title   = {Governing Clinical AI Deployment: A Mathematical Framework for Transparency-Dependent Autonomy},
+  author  = {Yu, Yunguo and Collaco, Bernardo Gabriele and Prabha, Srinivasagam and Haider, Syed Ali and Malena, Carina Rosa and Parte, Yogesh and Wood, Nadia G. and Leibovich, Bradley C. and Forte, Antonio Jorge},
+  journal = {Healthcare},
+  volume  = {14},
+  number  = {21},
+  pages   = {3736},
+  year    = {2026},
+  doi     = {10.3390/healthcare14213736}
+}
+```
+
+Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 
 ## License
 

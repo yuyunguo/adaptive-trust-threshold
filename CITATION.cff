@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "Adaptive Trust Threshold: transparency-dependent autonomy for clinical AI"
+type: software
+repository-code: "https://github.com/yuyunguo/adaptive-trust-threshold"
+preferred-citation:
+  type: article
+  title: "Governing Clinical AI Deployment: A Mathematical Framework for Transparency-Dependent Autonomy"
+  journal: "Healthcare"
+  volume: 14
+  issue: 21
+  start: 3736
+  year: 2026
+  doi: "10.3390/healthcare14213736"
+  url: "https://doi.org/10.3390/healthcare14213736"
+  authors:
+    - {family-names: Yu, given-names: Yunguo}
+    - {family-names: Collaco, given-names: Bernardo Gabriele}
+    - {family-names: Prabha, given-names: Srinivasagam}
+    - {family-names: Haider, given-names: Syed Ali}
+    - {family-names: Malena, given-names: Carina Rosa}
+    - {family-names: Parte, given-names: Yogesh}
+    - {family-names: Wood, given-names: Nadia G.}
+    - {family-names: Leibovich, given-names: Bradley C.}
+    - {family-names: Forte, given-names: Antonio Jorge}
